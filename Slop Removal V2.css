@@ -415,3 +415,8 @@ div[class*="container_"][class*="textXs_"] {
 div[class*="activitySectionWithButtons_"] > button[role="button"]:has(svg[class*="icon_"]) {
     display: none;
 }
+
+/*-----Test-----*/
+[class*="appAsidePanelWrapper"] {
+    display: none !important;
+}
