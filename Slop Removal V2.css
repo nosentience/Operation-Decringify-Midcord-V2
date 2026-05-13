@@ -13,7 +13,7 @@
 [style*="custom-menu-separator-margin"],
 
 /*Removes 'free 1 month' badge that shows up for nitro*/
-[class*="premiumTrialBadge_"],
+[class*="premiumTrialBadge"],
 
 /*-----Relations: User-----*/
 /*Removes 'add status' to own profile*/
