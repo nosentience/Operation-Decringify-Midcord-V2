@@ -99,11 +99,11 @@
 
  [class*="dot"] [class*="emoji"],
 
-/*Removes lighting bolt and '#x Streak' from activity cards in profile cards*/
-[class*="badgeContainer"]:nth-child(2),
+/*Removes labels like "marathon" or 'trending' from activity cards in profile cards*/
+[class*="card"] [class*="badgeLabel"],
 
-/*Removes controller icon from activity cards in profile cards*/
-[class*="badgeContainer"] [role="img"],
+/*Removes the icons from activity cards in profile cards & the 3 dotted menu leading to game profiles*/
+[class*="card"] [role="img"],
 
 /*-----Relations: Servers-----*/
 /*Removes 'hide muted channels' from server contextmenu*/
