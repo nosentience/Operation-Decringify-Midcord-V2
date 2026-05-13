@@ -417,6 +417,6 @@ div[class*="activitySectionWithButtons_"] > button[role="button"]:has(svg[class*
 }
 
 /*-----Test-----*/
-[class*="appAsidePanelWrapper"] {
+[class*="appAsidePanelWrapper"] [class*="nitro-pink"] {
     display: none !important;
 }
