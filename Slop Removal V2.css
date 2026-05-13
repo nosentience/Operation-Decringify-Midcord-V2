@@ -417,8 +417,4 @@ div[class*="activitySectionWithButtons_"] > button[role="button"]:has(svg[class*
 }
 
 /*-----Test-----*/
-[class*="fullscreenOnMobile"],
 
-[id="popover-portal"] [class*="scrim"] {
-    display: none !important;
-}
