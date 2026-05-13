@@ -249,6 +249,9 @@ button[aria-label="Turn On Camera"],
 /*Remove status from voice channels in servers*/
 [class*="statusDiv_"],
 
+/*Removes invite to voice timer button in voice channels*/
+[class*="content"] [class*="animation"],
+
 /*-----Relations: Discord Settings-----*/
 /*Removes the nameplate preview when editing profile*/
 [class^="nameplatePreview"],
