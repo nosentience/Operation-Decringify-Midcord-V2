@@ -102,6 +102,11 @@
 /*Removes the icons from activity cards in profile cards & the 3 dotted menu leading to game profiles*/
 [class*="card"] [role="img"],
 
+/*Removes the activity type icon and emojis in user status under friend's online section*/
+[class*="textWithIconContainer"] [class*="icon"],
+
+[class*="statusText"] [class*="emoji"],
+
 /*-----Relations: Servers-----*/
 /*Removes 'hide muted channels' from server contextmenu*/
 [id="guild-context-hide-muted-channels"],
@@ -176,6 +181,12 @@
 
 [style="height: 84px;"],
 
+/*Removes top emoji badges like 'Popular' when in servers*/
+[class*="topGuildEmojiBadge"],
+
+/*Removes(lazily) a newly added highlighted emojis*/
+[class="newlyAddedHighlightContainer_fc7141"],
+
 /*-----Relations: Chat & Typing box-----*/
 /*Removes emoji button on typing box*/
 [aria-label*="Add Emoji"],
@@ -242,6 +253,7 @@
 
 /*Removes 'Polls" button when clicking attach file*/
 [id="channel-attach-poll"],
+
 /*-----Relations: Calls-----*/
 /*Removes 'soundboard', 'video call', and 'apps' call buttons in the bottom left during call*/
 [aria-label="User status and settings"] [class*="lookFilled_"][class*="colorBrand_"][class*="fullWidth_"][class*="grow_"],
