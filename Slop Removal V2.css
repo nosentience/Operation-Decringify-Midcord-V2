@@ -188,7 +188,7 @@
 [class="newlyAddedHighlightContainer_fc7141"],
 
 /*Removes 'Game Collection' box from mini profile cards when clicking on a user from the server list*/
-[aria-label*="Game Collection"],
+[aria-label*="Game Collection"] [class*="card"],
 
 /*-----Relations: Chat & Typing box-----*/
 /*Removes emoji button on typing box*/
