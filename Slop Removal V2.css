@@ -95,7 +95,9 @@
 [class*=partyMember_],
 
 /*Removes the activity type icon and emojis in user status under friend's online section*/
-[class*="textWithIconContainer"] [class*="icon"], [class*="dot"], [class*="emoji"],
+[class*="textWithIconContainer"] [class*="icon"],
+
+ [class*="dot"] [class*="emoji"],
 
 /*Removes lighting bolt and '#x Streak' from activity cards in profile cards*/
 [class*="badgeContainer"]:nth-child(2),
