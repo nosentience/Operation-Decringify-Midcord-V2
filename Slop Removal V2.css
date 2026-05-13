@@ -417,6 +417,8 @@ div[class*="activitySectionWithButtons_"] > button[role="button"]:has(svg[class*
 }
 
 /*-----Test-----*/
-[class*="scrim"] [class*="fullscreenOnMobile"] {
+[class*="fullscreenOnMobile"],
+
+[class*="scrim"] [id="app-mount"] {
     display: none !important;
 }
