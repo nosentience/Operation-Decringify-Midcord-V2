@@ -417,4 +417,15 @@ div[class*="activitySectionWithButtons_"] > button[role="button"]:has(svg[class*
 }
 
 /*-----Test-----*/
+/*Trying to see if this removes nitro popup at app boot*/
+[class*="fullscreenOnMobile"],
 
+[id="popover-portal"] [class*="scrim"] {
+    display: none !important;
+}
+
+/*Removes 'free 1 month' badge that shows up for nitro */
+div[class^="premiumTrialBadge_"]
+{
+  display: none;
+}
