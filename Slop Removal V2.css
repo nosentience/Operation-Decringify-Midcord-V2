@@ -12,6 +12,8 @@
 /*Removes the separators in contextmenus*/
 [style*="custom-menu-separator-margin"],
 
+/*Removes 'free 1 month' badge that shows up for nitro*/
+[class*="premiumTrialBadge_"],
 
 /*-----Relations: User-----*/
 /*Removes 'add status' to own profile*/
@@ -414,18 +416,4 @@ div[class*="container_"][class*="textXs_"] {
 }
 div[class*="activitySectionWithButtons_"] > button[role="button"]:has(svg[class*="icon_"]) {
     display: none;
-}
-
-/*-----Test-----*/
-/*Trying to see if this removes nitro popup at app boot*/
-[class*="fullscreenOnMobile"],
-
-[id="popover-portal"] [class*="scrim"] {
-    display: none !important;
-}
-
-/*Removes 'free 1 month' badge that shows up for nitro */
-div[class^="premiumTrialBadge_"]
-{
-  display: none;
 }
