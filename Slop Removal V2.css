@@ -99,7 +99,7 @@
 /*Removes the activity type icon and emojis in user status under friend's online section*/
 [class*="textWithIconContainer"] [class*="icon"],
 
- [class*="dot"] [class*="emoji"],
+[class*="dot"] [class*="emoji"],
 
 /*Removes labels like "marathon" or 'trending' from activity cards in profile cards*/
 [class*="card"] [class*="badgeLabel"],
