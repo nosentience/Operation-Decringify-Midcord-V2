@@ -1580,3 +1580,53 @@ li[class*="channel_"]:has([d="M7.5 21.7a8.95 8.95 0 0 1 9 0 1 1 0 0 0 1-1.73c-.6
     padding: 1%;
     text-overflow: clip !important;
 }
+
+/*Temporary additions that I want until I remake this one myself*/
+/*Makes the dot next to 'Online' near titlebar white to mimic a glow*/
+[class*="scrollable"] [class*="dot"] {
+    color:#ffffff;
+}
+/*Makes the buttons 'Message' and 'More' match DTM-08 theme in the Friend's tab under Online*/
+[class*="peopleListItem"] [class*="actionButton"] {
+    border-radius: 4px;
+    color: #D3D3D3;
+    background: var(--dtm-08-tab-selected-bg);
+    box-shadow: var(--dtm-08-tab-selected-bs);
+    background-color: var(--background-modifier-hover);
+    margin-right: 1px;
+}
+/*Makes the icons glow in the buttons 'Message' and 'More' in the Friend's tab under Online*/
+[class*="peopleListItem"] [class*="actionButton"]:hover {
+    border-radius: 4px;
+    color: #ffffff;
+    background-color: var(--background-modifier-hover);
+    background: var(--dtm-08-tab-selected-bg);
+    box-shadow: var(--dtm-08-tab-selected-bs);
+    margin-right: 1px;
+}
+
+/*Makes the buttons 'Friend' and 'More' match DTM-08 theme in a profile sidebar*/
+[class*="inner"] [class*="bannerButton"] {
+    border-radius: 4px;
+    color: #D3D3D3;
+    background: var(--dtm-08-tab-selected-bg);
+    box-shadow: var(--dtm-08-tab-selected-bs);
+    background-color: var(--background-modifier-hover);
+    margin-right: 1px;
+}
+
+/*Makes the icons glow in the buttons 'Friend' and 'More' match DTM-08 theme in a profile sidebar*/
+[class*="inner"] [class*="bannerButton"]:hover {
+    border-radius: 4px;
+    color: #ffffff;
+    background-color: var(--background-modifier-hover);
+    background: var(--dtm-08-tab-selected-bg);
+    box-shadow: var(--dtm-08-tab-selected-bs);
+    margin-right: 1px;
+}
+
+/*Makes the replied message glow when hovering to click*/
+[class*="repliedMessageClickableSpine"]:hover {
+    text-shadow: 0 0 5px #ffffff, 0 0 5px #ffffff; 
+
+}
