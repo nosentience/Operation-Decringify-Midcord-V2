@@ -249,7 +249,7 @@
 [class*="drawerSizingWrapper"] [class*="nitro"],
 
 /*Removes buttons from file size warning popup*/
-[class*="actionBar"],
+[class*="padding"] [class*="actionBar"],
 
 /*Removes 'Apps' button when clicking attach file*/
 [id="channel-attach-SLASH_COMMAND"],
@@ -426,4 +426,9 @@ div[class*="container_"][class*="textXs_"] {
 }
 div[class*="activitySectionWithButtons_"] > button[role="button"]:has(svg[class*="icon_"]) {
     display: none;
+}
+
+/*Remove(it should at least LOL) a nitro ad when opening Discord*/
+[class*="spinnerContainer"] [class*="focusLock"] {
+    display: none !important;
 }
