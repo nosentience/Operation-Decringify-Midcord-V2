@@ -249,7 +249,7 @@
 [class*="drawerSizingWrapper"] [class*="nitro"],
 
 /*Removes buttons from file size warning popup*/
-[class*="padding"] [class*="actionBar"],
+[aria-label="Uh oh, this file exceeds the size limit."] [class*="actionBar"],
 
 /*Removes 'Apps' button when clicking attach file*/
 [id="channel-attach-SLASH_COMMAND"],
