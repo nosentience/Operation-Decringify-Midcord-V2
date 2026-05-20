@@ -15,6 +15,9 @@
 /*Removes 'free 1 month' badge that shows up for nitro*/
 [class*="premiumTrialBadge"],
 
+/*Removes any instance of 'notice' which was related to a nitro bar ad*/
+[class*="notice"],
+
 /*-----Relations: User-----*/
 /*Removes 'add status' to own profile*/
 [aria-label="Add custom status"],
