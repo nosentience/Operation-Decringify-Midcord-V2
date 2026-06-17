@@ -15,9 +15,6 @@
 /*Removes 'free 1 month' badge that shows up for nitro*/
 [class*="premiumTrialBadge"],
 
-/*Removes any instance of 'notice' which was related to a nitro bar ad*/
-[class*="notice"],
-
 /*-----Relations: User-----*/
 /*Removes 'add status' to own profile*/
 [aria-label="Add custom status"],
@@ -103,7 +100,7 @@
 [class*="card"] [class*="badgeLabel"],
 
 /*Removes the icons from activity cards in profile cards & the 3 dotted menu leading to game profiles*/
-[class*="card"] [role="img"],
+[aria-label^="Activity"] [role="img"],
 
 /*Removes the activity type icon and emojis in user status under friend's online section*/
 [class*="textWithIconContainer"] [class*="icon"],
