@@ -1,4 +1,4 @@
-/*-----Broad Instances-----*/
+/*-----General nitro removal-----*/
 
 /*Removes any instance of 'premium'*/
 [class*="premium"],
@@ -14,6 +14,9 @@
 
 /*Removes 'free 1 month' badge that shows up for nitro*/
 [class*="premiumTrialBadge"],
+
+/*Removes a nitro ad when opening Discord*/
+[class*="spinnerContainer"] [class*="focusLock"],
 
 /*-----Relations: User-----*/
 /*Removes 'add status' to own profile*/
@@ -303,6 +306,10 @@ div[class*="customizationSection_"]:is( :nth-of-type(2),
 }
 
 
+
+
+
+
 /*-----Extra/Reused Lines-----*/
 /*Replaces the new nitro badges with the old one*/
 img[src^="https://cdn.discordapp.com/badge-icons/"]:is([src*="cff7119d4417261c3f52fde8a94ba8e5"],
@@ -426,9 +433,4 @@ div[class*="container_"][class*="textXs_"] {
 }
 div[class*="activitySectionWithButtons_"] > button[role="button"]:has(svg[class*="icon_"]) {
     display: none;
-}
-
-/*Remove(it should at least LOL) a nitro ad when opening Discord*/
-[class*="spinnerContainer"] [class*="focusLock"] {
-    display: none !important;
 }
