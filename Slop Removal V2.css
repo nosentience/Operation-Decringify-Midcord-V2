@@ -31,8 +31,8 @@
     [aria-label*="boosting"],
     [aria-label*="Quest"],
     [aria-label^="Level"],
-    [aria-label*="Orb"]),
-
+    [aria-label*="Orb"],
+    [aria-label^="Gifting Icon"]),
 /*Removes 'Wishlist' tab from profile cards*/
 [aria-label="Wishlist"],
 
