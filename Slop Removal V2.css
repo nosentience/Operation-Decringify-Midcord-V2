@@ -260,6 +260,9 @@
 /*Removes 'Polls" button when clicking attach file*/
 [id="channel-attach-poll"],
 
+/*Removes extra buttons popover when hovering on individual messages*/
+[aria-label="Message Actions"] [class*="popover"],
+
 /*-----Relations: Calls-----*/
 /*Removes 'soundboard', 'video call', and 'apps' call buttons in the bottom left during call*/
 [aria-label="User status and settings"] [class*="lookFilled_"][class*="colorBrand_"][class*="fullWidth_"][class*="grow_"],
