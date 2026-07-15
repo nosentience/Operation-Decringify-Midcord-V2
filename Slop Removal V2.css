@@ -231,7 +231,9 @@
 [class^="buttons"] [aria-label]:is(
     /*text box buttons*/
     [aria-label*="sticker"],
-    [aria-label*="Apps"]),
+    [aria-label*="Apps"],
+    [aria-label*="Send a gift"],
+
 
 /*Removes the 'Stickers' button from expression box*/
 [id^="sticker"],
