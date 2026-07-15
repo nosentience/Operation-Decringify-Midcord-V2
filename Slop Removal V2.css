@@ -193,7 +193,7 @@
 /*Removes 'Game Collection' box from mini profile cards when clicking on a user from the server list*/
 [aria-label*="Game Collection"] [class*="card"],
 
-/*-----Relations: Chat & Typing box-----*/
+/*-----Relations: Chat &  box-----*/
 /*Removes emoji button on typing box*/
 [aria-label*="Add Emoji"],
 
@@ -232,7 +232,7 @@
     /*text box buttons*/
     [aria-label*="sticker"],
     [aria-label*="Apps"],
-    [aria-label*="Send a gift"],
+    [aria-label*="Send a gift"]),
 
 
 /*Removes the 'Stickers' button from expression box*/
