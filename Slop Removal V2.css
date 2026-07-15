@@ -79,6 +79,7 @@
 
 /*Removes the 'Shop' channel from home tab*/
 [data-list-item-id*="___shop"],
+
 /* shop channel from home */
 
 /*Removes the 'Quests' channel from home tab*/
@@ -231,9 +232,10 @@
 [class^="buttons"] [aria-label]:is(
     /*text box buttons*/
     [aria-label*="sticker"],
-    [aria-label*="Apps"],
-    [aria-label*="Send a gift"]),
+    [aria-label*="Apps"]),
 
+/*Removes nitro gift box from the typing box*/
+[aria-label*="Send a gift"],
 
 /*Removes the 'Stickers' button from expression box*/
 [id^="sticker"],
