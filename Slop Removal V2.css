@@ -441,3 +441,7 @@ div[class*="container_"][class*="textXs_"] {
 div[class*="activitySectionWithButtons_"] > button[role="button"]:has(svg[class*="icon_"]) {
     display: none;
 }
+
+[aria-labelledby="uid_21"][class*=nitro-pink] {
+    display: none !important:
+}
