@@ -442,6 +442,6 @@ div[class*="activitySectionWithButtons_"] > button[role="button"]:has(svg[class*
     display: none;
 }
 
-[aria-labelledby="uid_21"][class*=nitro-pink] {
+[aria-labelledby="uid_21"] [class*=nitro-pink] {
     display: none !important:
 }
